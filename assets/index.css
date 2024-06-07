@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.reiniciar,
+.reiniciar1 {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: pink;
+    color: black;
+    box-shadow: 0 0px 15px 3px black;
+}
+
+.input1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container{
+    box-sizing: 0 0px 15px 3px black;
+}

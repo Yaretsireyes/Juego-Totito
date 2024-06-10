@@ -131,45 +131,44 @@ const validarGanador = () => {
 
 const fila1 = () => {
     accion1.forEach((fila1) => {
-        fila1.classList.toggle('bg-danger')
+        fila1.classList.toggle('bg-primary')
     })
 }
 const fila2 = () => {
     accion2.forEach((fila2) => {
-        fila2.classList.toggle('bg-danger')
+        fila2.classList.toggle('bg-primary')
     })
 }
 const fila3 = () => {
     accion3.forEach((fila3) => {
-        fila3.classList.toggle('bg-danger')
+        fila3.classList.toggle('bg-primary')
     })
 }
 const col1 = () => {
     accion4.forEach((col1) => {
-        col1.classList.toggle('bg-danger')
+        col1.classList.toggle('bg-primary')
     })
 }
 const col2 = () => {
     accion5.forEach((col2) => {
-        col2.classList.toggle('bg-danger')
+        col2.classList.toggle('bg-primary')
     })
 }
 const col3 = () => {
     accion6.forEach((col3) => {
-        col3.classList.toggle('bg-danger')
+        col3.classList.toggle('bg-primary')
     })
 }
 const diagonal1 = () => {
     accion7.forEach((diagonal1) => {
-        diagonal1.classList.toggle('bg-danger')
+        diagonal1.classList.toggle('bg-primary')
     })
 }
 const diagonal2 = () => {
     accion8.forEach((diagonal2) => {
-        diagonal2.classList.toggle('bg-danger')
+        diagonal2.classList.toggle('bg-primary')
     })
 }
-
 
 const bloquearCastilla = (coordenada) => {
     if (arreglo[coordenada] != null) {
@@ -209,7 +208,7 @@ celdas.forEach((celdas) => {
         celdas.innerText = ''
         arreglo = [null, null, null, null, null, null, null, null, null];
         flag = true
-        celdas.classList.remove('bg-danger')
+        celdas.classList.remove('bg-primary')
     })
 })
 
